@@ -201,8 +201,8 @@ void CreateVBO(void)
 
   GLenum ErrorCheckValue = glGetError();
   
-  glGenVertexArrays(1, &VaoId);
-  glBindVertexArray(VaoId);
+//  glGenVertexArrays(1, &VaoId);
+//  glBindVertexArray(VaoId);
 
   glGenBuffers(1, &VboId);
   glBindBuffer(GL_ARRAY_BUFFER, VboId);
